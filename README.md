@@ -5,5 +5,3 @@ This is the active workbook for my "The Odin Project" JS Course
 
 - HTML CHEAT SHEET: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 - CSS CHEAT SHEET:  https://htmlcheatsheet.com/css/
-
-TEST
