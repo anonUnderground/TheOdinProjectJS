@@ -29,7 +29,7 @@ Recommended option-->
         
             <p>
             &lt;div id="page"&gt;<br>
-            Hello, World!<br>
+            &lt;p&gt;Hello, World!&lt;/p&gt;<br>
             &lt;/div&gt; 
             </p>
         </div>
@@ -50,8 +50,37 @@ Recommended option-->
                 from above, I will use the Emmet plugin to automatically format a "Title" Wrapper to the paragraph Element. <br>
                 This is done by putting your cursor inside the start tag you'd like wrap, running the custom keybinding asscoaietd with the desired action, <br>
                 in this case the action "Wrap with Abbreviation" action which I have set to "Shift + CTRL + A" will open up the prompt box <br>
-                where I can enter my wrapper defintion: <b>.wrapper>h1{Title}+.content</b>
+                where I can enter my wrapper defintion: <b>.wrapper>h1{Title}+.content</b><br><br>
             </p>
+
+            <p>
+                I will click where the <b>*</b> is in the expression below, intiate my action using "Shift + CTRL + A", and finally type<br>
+                my expression <b>.wrapper>h1{Title}+.content</b> to add and format my title wrapper <br><br>
+            </p>
+
+            <!-- HTML Encoded -->
+            <div id="page">
+            
+                <p>
+                &lt;div id="page"&gt;<br>
+                &lt;p<b>*<b>&gt;Hello, World!&lt;/p&gt;<br>
+                &lt;/div&gt; 
+                </p>
+            </div>
+
+            <!-- Non HTML Encoded -->
+            <!-- By following the instructions above, the code was automatically formatted -->
+
+            <div id="page">
+                <b>HTML EXPRESSION OUTPUT</b>
+                <div class="wrapper">
+                    <h1>Title</h1>
+                    <div class="content">
+                        <p>Hello world</p>
+                    </div>
+                </div>
+            </div> 
+
         </div> 
 
     </body>
