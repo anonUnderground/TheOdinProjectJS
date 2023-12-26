@@ -7,14 +7,23 @@
 </head>
 <body>
 
-  <h1>Responsive Images</h1>
+    <h1>Responsive Images</h1>
 
-  <!-- Example Image with srcset for 1x, 2x, and 3x resolutions -->
-  <img
-    src="image-1x.jpg"
-    srcset="image-1x.jpg 1x, image-2x.jpg 2x, image-3x.jpg 3x"
-    alt="Responsive Image"
-    style="max-width: 100%; height: auto;"/>
+    <div>
+
+        <p>
+            This is a demo of responsive images, these images resize depending on the window size.
+            This is important for a few different reasons: User experience and also opitimzing
+            for data, we don't want people on limited data plans to deat through their data plans.
+        </p>
+
+        <!-- Example Image with srcset for 1x, 1,5x, and 2x resolutions -->
+        <img
+            src="grand_place_1x.jpg"
+            srcset="grand_place_1x.jpg 1x, grand_place_1xx.jpg 1.5x, grand_place_1x.jpg 2x"
+            alt="Responsive Image"
+            style="max-width: 100%; height: auto;"/>
+    </div>
 
 </body>
 </html>
